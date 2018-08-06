@@ -1,0 +1,15 @@
+c:\users\mo-feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\PresentationLayer\bin\Debug\PresentationLayer.exe.config
+c:\users\mo-feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\PresentationLayer\bin\Debug\PresentationLayer.exe
+c:\users\mo-feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\PresentationLayer\bin\Debug\PresentationLayer.pdb
+c:\users\mo-feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\PresentationLayer\obj\Debug\PresentationLayer.csprojResolveAssemblyReference.cache
+c:\users\mo-feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\PresentationLayer\obj\Debug\PresentationLayer.AdmForm.resources
+c:\users\mo-feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
+c:\users\mo-feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.Cache
+c:\users\mo-feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\PresentationLayer\obj\Debug\PresentationLayer.exe
+c:\users\mo-feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\PresentationLayer\obj\Debug\PresentationLayer.pdb
+C:\Users\Mo-Feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\PresentationLayer\obj\Debug\PresentationLayer.AddRoleForm.resources
+C:\Users\Mo-Feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\PresentationLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Mo-Feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\PresentationLayer\bin\Debug\DataAccessLayer4.dll
+C:\Users\Mo-Feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\PresentationLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Mo-Feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\PresentationLayer\bin\Debug\DataAccessLayer4.pdb
+C:\Users\Mo-Feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\PresentationLayer\obj\Debug\PresentationLayer.LoginForm.resources

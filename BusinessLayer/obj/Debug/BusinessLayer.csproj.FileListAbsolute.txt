@@ -1,0 +1,7 @@
+C:\Users\Mo-Feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Mo-Feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Mo-Feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\BusinessLayer\bin\Debug\DataAccessLayer4.dll
+C:\Users\Mo-Feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\BusinessLayer\bin\Debug\DataAccessLayer4.pdb
+C:\Users\Mo-Feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Mo-Feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\Mo-Feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\BusinessLayer\obj\Debug\BusinessLayer.pdb
