@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdmForm));
             this.Password = new System.Windows.Forms.Label();
             this.Us = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -224,7 +225,7 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.richTextBox1.Location = new System.Drawing.Point(298, 193);
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -237,6 +238,8 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
             this.pictureBox1.Location = new System.Drawing.Point(456, 12);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
@@ -352,9 +355,9 @@
             this.panel1.Controls.Add(this.welcomeLbl);
             this.panel1.Controls.Add(this.btnHide);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Location = new System.Drawing.Point(683, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(756, 479);
+            this.panel1.Size = new System.Drawing.Size(73, 479);
             this.panel1.TabIndex = 32;
             // 
             // button1
@@ -397,7 +400,7 @@
             this.btnHide.ForeColor = System.Drawing.Color.DodgerBlue;
             this.btnHide.Location = new System.Drawing.Point(0, 0);
             this.btnHide.Name = "btnHide";
-            this.btnHide.Size = new System.Drawing.Size(756, 109);
+            this.btnHide.Size = new System.Drawing.Size(73, 109);
             this.btnHide.TabIndex = 31;
             this.btnHide.Text = "Hide";
             this.btnHide.UseVisualStyleBackColor = true;

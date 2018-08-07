@@ -78,10 +78,7 @@ namespace PresentationLayer
                 //FileStream fs = new FileStream(_FileName, FileMode.Open, FileAccess.Read);
                 //fs.Seek(0, SeekOrigin.Begin);
                 //fs.Read(MyImage, 0, (int)new FileInfo(_FileName).Length);
-                FileStream fs = new FileStream(_FileName, FileMode.Open, FileAccess.Read);
-                BinaryReader Br = new BinaryReader(fs);
-                FileInfo Fi = new FileInfo(_FileName);
-                MyImage = Br.ReadBytes((int)Fi.Length);
+                ReadingImageFromFile();
             }
             else
             {
@@ -112,10 +109,18 @@ namespace PresentationLayer
 
         }
 
+        private void ReadingImageFromFile()
+        {
+            FileStream fs = new FileStream(_FileName, FileMode.Open, FileAccess.Read);
+            BinaryReader Br = new BinaryReader(fs);
+            FileInfo Fi = new FileInfo(_FileName);
+            MyImage = Br.ReadBytes((int)Fi.Length);
+        }
+
         private void invokeimage_Click(object sender, EventArgs e)
         {
             OpenFileDialog Open = new OpenFileDialog();
-            Open.Filter = "|*.jpg";
+            Open.Filter = "|*.jpg;*.BMP;*.Png";
             Open.Title = "GetImage";
             Open.CheckPathExists = true;
             if (Open.ShowDialog() == DialogResult.OK)
@@ -216,15 +221,18 @@ namespace PresentationLayer
                 RoleID = Convert.ToInt32(cmbRole.SelectedValue)
             };
             //this when update image remove error
+
             //cuz it doesn't insert image
-            if (MyImage == null || _FileName == null)
+            if (_FileName != null)
+            {
+                ReadingImageFromFile();
+                OldEmployee.Image = MyImage;
+            }
+            else if (MyImage == null )
             {
                 OldEmployee.Image = ReadyImage;
             }
-            else
-            {
-                OldEmployee.Image = MyImage;
-            }
+           
             return OldEmployee;
         }
 
@@ -245,12 +253,18 @@ namespace PresentationLayer
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            int id = (int)dataGridView1.Rows[e.RowIndex].Cells[0].Value;
+            int id = (int)dataGridView1.Rows[e.RowIndex].Cells[0].Value ;
             AdminBL Data = Employee.SelectEmployeeByID(id);
 
             ReadyImage = Data.Image;
-            pictureBox1.Image = Image.FromStream(new MemoryStream(Data.Image));
-
+            try
+            {
+                pictureBox1.Image = Image.FromStream(new MemoryStream(Data.Image));
+            }
+            catch (ArgumentNullException)
+            {
+                pictureBox1.Image= Image.FromFile(@"C:\Users\Mo-Feto\Desktop\Person Female_96px.png");
+            }
             txtname.Text = Data.Name;
             txtID.Text = Data.ID.ToString();
             txtage.Text = Data.Age.ToString();

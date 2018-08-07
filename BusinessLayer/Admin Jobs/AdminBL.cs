@@ -84,7 +84,7 @@ namespace BusinessLayer
             Employee.Image = tb.Rows[0][6] as byte[];
 
             Employee.UserName = tb.Rows[0]["UserName"].ToString();
-            Employee.Password = tb.Rows[0]["UserName"].ToString();
+            Employee.Password = tb.Rows[0]["Password"].ToString();
             return Employee;
         }
 
