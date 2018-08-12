@@ -47,33 +47,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddRoleForm.cs">
+    <Compile Include="AdminRelatedForms\AddRoleForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddRoleForm.Designer.cs">
+    <Compile Include="AdminRelatedForms\AddRoleForm.Designer.cs">
       <DependentUpon>AddRoleForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="AdminRelatedForms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="AdminRelatedForms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginForm.cs">
+    <Compile Include="AdminRelatedForms\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginForm.Designer.cs">
+    <Compile Include="AdminRelatedForms\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AddRoleForm.resx">
+    <Compile Include="ReciptionRelatedForms\ReciptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReciptionRelatedForms\ReciptionForm.Designer.cs">
+      <DependentUpon>ReciptionForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminRelatedForms\AddRoleForm.resx">
       <DependentUpon>AddRoleForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="AdminRelatedForms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginForm.resx">
+    <EmbeddedResource Include="AdminRelatedForms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -86,6 +92,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ReciptionRelatedForms\ReciptionForm.resx">
+      <DependentUpon>ReciptionForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

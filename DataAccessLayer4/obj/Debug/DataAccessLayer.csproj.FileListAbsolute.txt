@@ -5,6 +5,6 @@ c:\users\mo-feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\DataAcce
 c:\users\mo-feto\documents\visual studio 2015\Projects\Mi_ProjectClinic\DataAccessLayer4\obj\Debug\DataAccessLayer4.pdb
 C:\Users\Mo-Feto\Documents\Visual Studio 2015\Projects\Mi_ProjectClinic\Clinic\DataAccessLayer4\bin\Debug\DataAccessLayer4.dll
 C:\Users\Mo-Feto\Documents\Visual Studio 2015\Projects\Mi_ProjectClinic\Clinic\DataAccessLayer4\bin\Debug\DataAccessLayer4.pdb
-C:\Users\Mo-Feto\Documents\Visual Studio 2015\Projects\Mi_ProjectClinic\Clinic\DataAccessLayer4\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
 C:\Users\Mo-Feto\Documents\Visual Studio 2015\Projects\Mi_ProjectClinic\Clinic\DataAccessLayer4\obj\Debug\DataAccessLayer4.dll
 C:\Users\Mo-Feto\Documents\Visual Studio 2015\Projects\Mi_ProjectClinic\Clinic\DataAccessLayer4\obj\Debug\DataAccessLayer4.pdb
+C:\Users\Mo-Feto\Documents\Visual Studio 2015\Projects\Mi_ProjectClinic\Clinic\DataAccessLayer4\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache

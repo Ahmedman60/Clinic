@@ -28,3 +28,4 @@ C:\Users\Mo-Feto\Documents\Visual Studio 2015\Projects\Mi_ProjectClinic\Clinic\P
 C:\Users\Mo-Feto\Documents\Visual Studio 2015\Projects\Mi_ProjectClinic\Clinic\PresentationLayer\obj\Debug\PresentationLayer.LoginForm.resources
 C:\Users\Mo-Feto\Documents\Visual Studio 2015\Projects\Mi_ProjectClinic\Clinic\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
 C:\Users\Mo-Feto\Documents\Visual Studio 2015\Projects\Mi_ProjectClinic\Clinic\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.Cache
+C:\Users\Mo-Feto\Documents\Visual Studio 2015\Projects\Mi_ProjectClinic\Clinic\PresentationLayer\obj\Debug\PresentationLayer.ReciptionRelatedForms.ReciptionForm.resources
