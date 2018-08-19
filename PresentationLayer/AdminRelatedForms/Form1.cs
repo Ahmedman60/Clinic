@@ -300,5 +300,10 @@ namespace PresentationLayer
                 MessageBox.Show("Please Select Employee to Be Deleted");
             }
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

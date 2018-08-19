@@ -10,7 +10,7 @@ using System.Data;
 using System.IO;
 namespace BusinessLayer.Reciption
 {
-    class Patient:DAL
+  public  class Patient:DAL
     {
         public Patient()
         {

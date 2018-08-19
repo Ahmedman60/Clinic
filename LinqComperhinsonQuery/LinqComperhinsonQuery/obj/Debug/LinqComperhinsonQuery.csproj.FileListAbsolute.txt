@@ -1,0 +1,6 @@
+c:\users\mo-feto\documents\visual studio 2015\Projects\LinqComperhinsonQuery\LinqComperhinsonQuery\bin\Debug\LinqComperhinsonQuery.exe.config
+c:\users\mo-feto\documents\visual studio 2015\Projects\LinqComperhinsonQuery\LinqComperhinsonQuery\obj\Debug\LinqComperhinsonQuery.csprojResolveAssemblyReference.cache
+c:\users\mo-feto\documents\visual studio 2015\Projects\LinqComperhinsonQuery\LinqComperhinsonQuery\bin\Debug\LinqComperhinsonQuery.exe
+c:\users\mo-feto\documents\visual studio 2015\Projects\LinqComperhinsonQuery\LinqComperhinsonQuery\bin\Debug\LinqComperhinsonQuery.pdb
+c:\users\mo-feto\documents\visual studio 2015\Projects\LinqComperhinsonQuery\LinqComperhinsonQuery\obj\Debug\LinqComperhinsonQuery.exe
+c:\users\mo-feto\documents\visual studio 2015\Projects\LinqComperhinsonQuery\LinqComperhinsonQuery\obj\Debug\LinqComperhinsonQuery.pdb
